@@ -255,16 +255,18 @@ span {
     position: relative;
     width: 30rem;
     height: 30rem;
-    border-radius: 50;
+    border-radius: 50%; /* Make the container circular */
+    border: 5px solid #000; /* Adjust the border size and color as needed */
+    overflow: hidden; /* Hide any overflow */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-img img {
-    width: 90%;
-    border-radius: 50%;
-    border: .2rem solid var(--main-color);
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
 }
 
 .about-img .circle-spin {
