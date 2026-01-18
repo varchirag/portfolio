@@ -253,8 +253,8 @@ span {
 
 .about-img {
     position: relative;
-    width: 30rem;
-    height: 30rem;
+    width: min(80vw, 30rem);   /* responsive width */
+    height: min(80vw, 30rem); 
     border-radius: 50%; /* Make the container circular */
     border: 5px solid #000; /* Adjust the border size and color as needed */
     overflow: hidden; /* Hide any overflow */
@@ -872,4 +872,5 @@ span {
     }
 
 }
+
 
