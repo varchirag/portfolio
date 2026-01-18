@@ -83,8 +83,8 @@ section {
 .my-img { 
     display: flex;
     justify-content: center;
-    width: 450px; /* Set the width to 547 pixels */
-    height: 300px; /* Set the height to 701 pixels */
+    width: 547px; /* Set the width to 547 pixels */
+    height: 701px; /* Set the height to 701 pixels */
 }
 
 .my-img img {
@@ -870,4 +870,5 @@ span {
     100% {
         transform: translate(-50%, -50%) rotate(360deg);
     }
+
 }
