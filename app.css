@@ -84,7 +84,7 @@ section {
     display: flex;
     justify-content: center;
     width: 547px; /* Set the width to 547 pixels */
-    height: 701px; /* Set the height to 701 pixels */
+    height: 547px; /* Set the height to 701 pixels */
 }
 
 .my-img img {
@@ -872,3 +872,4 @@ span {
     }
 
 }
+
